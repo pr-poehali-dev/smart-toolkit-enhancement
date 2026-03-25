@@ -6,11 +6,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">E</span>
+                <span className="text-accent-foreground font-bold">🚁</span>
               </div>
-              <span className="font-semibold">Elevate VA Academy</span>
+              <span className="font-semibold">DroneAcademy</span>
             </div>
-            <p className="text-sm text-background/70">Персональное обучение 1-на-1 для будущих виртуальных ассистентов.</p>
+            <p className="text-sm text-background/70">Профессиональная подготовка специалистов по управлению БПЛА.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Elevate VA Academy. Все права защищены.</p>
+          <p>&copy; 2026 DroneAcademy. Все права защищены.</p>
         </div>
       </div>
     </footer>

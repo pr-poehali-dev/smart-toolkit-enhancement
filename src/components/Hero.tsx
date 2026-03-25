@@ -19,14 +19,14 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full w-fit">
               <span className="w-2 h-2 bg-accent rounded-full"></span>
-              <span className="text-sm font-medium">Профессиональное обучение</span>
+              <span className="text-sm font-medium">Профессиональное обучение операторов</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Выведите карьеру VA на новый уровень
+              Стань специалистом по управлению БПЛА
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Персональное обучение 1-на-1 от эксперта отрасли. Освойте навыки, стратегии и инструменты,
-              чтобы стать востребованным виртуальным ассистентом.
+              Комплексное обучение от практикующих экспертов. Освойте пилотирование дронов, 
+              аэрофотосъёмку и законодательство — и войди в одну из самых перспективных профессий.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
@@ -34,7 +34,7 @@ export function Hero() {
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground text-base"
               >
-                Записаться на сессию
+                Записаться на обучение
               </Button>
               <Button
                 onClick={handleLearnMore}
@@ -42,12 +42,12 @@ export function Hero() {
                 variant="outline"
                 className="border-border text-foreground hover:bg-muted bg-transparent"
               >
-                Узнать больше
+                Узнать программу
               </Button>
             </div>
             <div className="flex gap-8 pt-4 text-sm">
               <div>
-                <p className="font-semibold text-foreground">500+</p>
+                <p className="font-semibold text-foreground">300+</p>
                 <p className="text-muted-foreground">Выпускников</p>
               </div>
               <div>
@@ -55,7 +55,7 @@ export function Hero() {
                 <p className="text-muted-foreground">Средний рейтинг</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground">10+</p>
+                <p className="font-semibold text-foreground">5+</p>
                 <p className="text-muted-foreground">Лет опыта</p>
               </div>
             </div>
@@ -65,8 +65,8 @@ export function Hero() {
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
-              src="/professional-woman-working-on-laptop-in-virtual-me.jpg"
-              alt="Обучение виртуальных ассистентов"
+              src="https://cdn.poehali.dev/projects/021e652e-b116-408f-8fb8-186cc7b22d02/files/e34cf080-3aab-44e7-883c-627724feb0b9.jpg"
+              alt="Обучение оператора БПЛА"
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>

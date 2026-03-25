@@ -14,19 +14,19 @@ export function AboutTrainer() {
             <div>
               <p className="text-accent font-semibold text-sm uppercase tracking-wide">О наставнике</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш коуч по успеху в VA
+                Ваш инструктор по управлению БПЛА
               </h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Более 10 лет опыта в виртуальном ассистировании и бизнес-операциях. Я помогла сотням
-              специалистов освоить навыки, необходимые для успеха в этой динамичной сфере.
+              Более 5 лет практического опыта в пилотировании БПЛА и подготовке специалистов. 
+              Я помог сотням людей получить профессию оператора дрона — от нуля до уверенного управления.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              Моя экспертиза охватывает административный менеджмент, коммуникацию с клиентами, координацию
-              проектов и владение цифровыми инструментами. Опыт работы с компаниями Fortune 500 и стартапами
-              дает мне уникальное понимание того, что действительно ценят работодатели.
+              Экспертиза: мультироторные и самолётного типа БПЛА, воздушная съёмка, тепловизионные 
+              полёты, правовая база и документация. Опыт работы в коммерческих, аграрных и 
+              строительных проектах.
             </p>
 
             <div className="space-y-4 pt-4">
@@ -35,8 +35,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Сертифицированный коуч VA</p>
-                  <p className="text-sm text-muted-foreground">Признание лидерами отрасли</p>
+                  <p className="font-semibold text-foreground">Сертифицированный инструктор БПЛА</p>
+                  <p className="text-sm text-muted-foreground">Официальная квалификация и допуск к полётам</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -44,8 +44,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">500+ выпускников</p>
-                  <p className="text-sm text-muted-foreground">95% карьерного роста</p>
+                  <p className="font-semibold text-foreground">300+ выпускников</p>
+                  <p className="text-sm text-muted-foreground">90% трудоустроены по специальности</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -53,8 +53,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Персональный подход</p>
-                  <p className="text-sm text-muted-foreground">Адаптация под ваши цели</p>
+                  <p className="font-semibold text-foreground">Практика с реальными дронами</p>
+                  <p className="text-sm text-muted-foreground">Полёты на учебных площадках с первого занятия</p>
                 </div>
               </div>
             </div>
